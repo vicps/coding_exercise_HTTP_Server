@@ -1,4 +1,4 @@
-# coding_exercise_Revelo
+# coding_exercise_HTTP_Server
 In this repository, I'll be presenting the code to SDET code challenge: create a Http Server to shorten, retrieving, redirecting and couting how many times a shortned url was clicked!
 
 ## Running the code
