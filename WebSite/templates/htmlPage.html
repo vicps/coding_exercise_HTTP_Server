@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>URL Shortener</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+    </style>
+</head>
+<body>
+    <h1 class="w3-text-grey w3-padding-16"><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Revelo Challenge - URL Shortener, Retriever and Counter! <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i></h1>
+    <form id="shorten-form">
+        <label for="original_url" class="w3-tag w3-teal w3-round">Type the URL to be shortened:</label><br>
+        <input type="text" id="original_url" name="original_url"><br><br>
+        <input type="submit" value="Shorten!">
+    </form>
+    <div id="shorten-result"></div>
+    <br>
+    <form id="retrieve-form">
+        <label for="shorten_url" class="w3-tag w3-teal w3-round">Type the shortened URL to retrieve the original URL:</label><br>
+        <input type="text" id="shorten_url" name="shorten_url"><br><br>
+        <input type="submit" value="Reverse shortening!">
+    </form>
+    <div id="retrieve-result"></div>
+    <br>
+    <form id="count-form">
+        <label for="count_url" class="w3-tag w3-teal w3-round">Type the shortened URL know how many times it was clicked/used:</label><br>
+        <input type="text" id="count_url" name="count_url"><br><br>
+        <input type="submit" value="Get the Count!">
+    </form>
+    <div id="count-result"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#shorten-form').submit(function(event) {
+                event.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: '/shorten',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        $('#shorten-result').html('Shortened URL: ' + response.short_url);
+                    }
+                });
+            });
+
+            $('#retrieve-form').submit(function(event) {
+                event.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: '/retrieve',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        if (response.original_url) {
+                            $('#retrieve-result').html('Original URL: ' + response.original_url);
+                        } else {
+                            $('#retrieve-result').html('Error: ' + response.error);
+                        }
+                    }
+                });
+            });
+
+            $('#count-form').submit(function(event) {
+                event.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: '/count',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        if (response.click_count !== undefined) {
+                            $('#count-result').html('How many times this shortened URL was clicked: ' + response.click_count);
+                        } else {
+                            $('#count-result').html('Error: ' + response.error);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
