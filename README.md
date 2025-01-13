@@ -68,7 +68,7 @@ NOTE: Test cases in `test cases - revelo challenge` worksheet
 
 6- Using simple free CSS templates, available at [W3Schools](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cv&stacked=h)
 
-7- Using Selenium and unitTest for automation, with Python. Basic Page-object model
+7- Using Selenium and unitTest for automation, with Python. Basic Page-object model. Chrome driver is already included in the project.
 
 8- Needed requirements to be isntalled in requirements.txt file
 
