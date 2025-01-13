@@ -18,7 +18,8 @@
         <input type="text" id="original_url" name="original_url"><br><br>
         <input type="submit" value="Shorten!">
     </form>
-    <div id="shorten-result"></div>
+    <div id="shorten-result">
+    </div>
     <br>
     <form id="retrieve-form">
         <label for="shorten_url" class="w3-tag w3-teal w3-round">Type the shortened URL to retrieve the original URL:</label><br>
@@ -44,6 +45,13 @@
                     data: $(this).serialize(),
                     success: function(response) {
                         $('#shorten-result').html('Shortened URL: ' + response.short_url);
+                    },
+                    error: function(xhr) {
+                            if (xhr.status === 400) {
+                                $('#shorten-result').html('Error: ' + xhr.responseJSON.error);
+                            } else {
+                                $('#shorten-result').html('An unexpected error occurred.');
+                            }
                     }
                 });
             });
@@ -60,6 +68,13 @@
                         } else {
                             $('#retrieve-result').html('Error: ' + response.error);
                         }
+                    },
+                    error: function(xhr) {
+                            if (xhr.status === 404) {
+                                $('#retrieve-result').html('Error: ' + xhr.responseJSON.error);
+                            } else {
+                                $('#retrieve-result').html('An unexpected error occurred.');
+                            }
                     }
                 });
             });
@@ -76,6 +91,13 @@
                         } else {
                             $('#count-result').html('Error: ' + response.error);
                         }
+                    },
+                    error: function(xhr) {
+                            if (xhr.status === 404) {
+                                $('#count-result').html('Error: ' + xhr.responseJSON.error);
+                            } else {
+                                $('#count-result').html('An unexpected error occurred.');
+                            }
                     }
                 });
             });

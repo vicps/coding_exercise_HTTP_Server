@@ -1,0 +1,168 @@
+2025-01-13 04:25:29,DEBUG,Starting Flask application.
+2025-01-13 04:25:29,WARNING, * Debugger is active!
+2025-01-13 04:25:29,INFO, * Debugger PIN: 176-837-046
+2025-01-13 04:25:33,DEBUG,Rendering index page.
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "GET / HTTP/1.1" 200 -
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:33,INFO,127.0.0.1 - - [13/Jan/2025 04:25:33] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:25:37,DEBUG,Rendering index page.
+2025-01-13 04:25:37,INFO,127.0.0.1 - - [13/Jan/2025 04:25:37] "GET / HTTP/1.1" 200 -
+2025-01-13 04:25:38,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:25:38,ERROR,Short URL not found.
+2025-01-13 04:25:38,INFO,127.0.0.1 - - [13/Jan/2025 04:25:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:25:38,DEBUG,Received URL to shorten: 
+2025-01-13 04:25:38,ERROR,Invalid URL provided.
+2025-01-13 04:25:38,INFO,127.0.0.1 - - [13/Jan/2025 04:25:38] "[31m[1mPOST /shorten HTTP/1.1[0m" 400 -
+2025-01-13 04:25:43,DEBUG,Rendering index page.
+2025-01-13 04:25:43,INFO,127.0.0.1 - - [13/Jan/2025 04:25:43] "GET / HTTP/1.1" 200 -
+2025-01-13 04:25:44,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:25:44,ERROR,Short URL not found.
+2025-01-13 04:25:44,INFO,127.0.0.1 - - [13/Jan/2025 04:25:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:25:44,DEBUG,Received URL to shorten: 
+2025-01-13 04:25:44,ERROR,Invalid URL provided.
+2025-01-13 04:25:44,INFO,127.0.0.1 - - [13/Jan/2025 04:25:44] "[31m[1mPOST /shorten HTTP/1.1[0m" 400 -
+2025-01-13 04:25:49,DEBUG,Rendering index page.
+2025-01-13 04:25:49,INFO,127.0.0.1 - - [13/Jan/2025 04:25:49] "GET / HTTP/1.1" 200 -
+2025-01-13 04:25:49,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:25:49,ERROR,Short URL not found.
+2025-01-13 04:25:49,INFO,127.0.0.1 - - [13/Jan/2025 04:25:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:25:50,DEBUG,Getting click count for shortened URL: invalid-url
+2025-01-13 04:25:50,ERROR,Short URL not found.
+2025-01-13 04:25:50,INFO,127.0.0.1 - - [13/Jan/2025 04:25:50] "[33mPOST /count HTTP/1.1[0m" 404 -
+2025-01-13 04:25:56,DEBUG,Rendering index page.
+2025-01-13 04:25:56,INFO,127.0.0.1 - - [13/Jan/2025 04:25:56] "GET / HTTP/1.1" 200 -
+2025-01-13 04:25:57,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:25:57,ERROR,Short URL not found.
+2025-01-13 04:25:57,INFO,127.0.0.1 - - [13/Jan/2025 04:25:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:25:58,DEBUG,Retrieving original URL for shortened URL: invalid-url
+2025-01-13 04:25:58,ERROR,Short URL not found.
+2025-01-13 04:25:58,INFO,127.0.0.1 - - [13/Jan/2025 04:25:58] "[33mPOST /retrieve HTTP/1.1[0m" 404 -
+2025-01-13 04:26:04,DEBUG,Rendering index page.
+2025-01-13 04:26:04,INFO,127.0.0.1 - - [13/Jan/2025 04:26:04] "GET / HTTP/1.1" 200 -
+2025-01-13 04:26:05,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:26:05,ERROR,Short URL not found.
+2025-01-13 04:26:05,INFO,127.0.0.1 - - [13/Jan/2025 04:26:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:26:06,DEBUG,Received URL to shorten: invalid-url
+2025-01-13 04:26:06,ERROR,Invalid URL provided.
+2025-01-13 04:26:06,INFO,127.0.0.1 - - [13/Jan/2025 04:26:06] "[31m[1mPOST /shorten HTTP/1.1[0m" 400 -
+2025-01-13 04:26:12,DEBUG,Rendering index page.
+2025-01-13 04:26:12,INFO,127.0.0.1 - - [13/Jan/2025 04:26:12] "GET / HTTP/1.1" 200 -
+2025-01-13 04:26:13,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:26:13,ERROR,Short URL not found.
+2025-01-13 04:26:13,INFO,127.0.0.1 - - [13/Jan/2025 04:26:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:26:17,DEBUG,Rendering index page.
+2025-01-13 04:26:17,INFO,127.0.0.1 - - [13/Jan/2025 04:26:17] "GET / HTTP/1.1" 200 -
+2025-01-13 04:26:17,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:26:17,ERROR,Short URL not found.
+2025-01-13 04:26:17,INFO,127.0.0.1 - - [13/Jan/2025 04:26:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:26:17,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:26:17,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:26:17,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:17,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:17,INFO,127.0.0.1 - - [13/Jan/2025 04:26:17] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:26:20,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:26:20,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:26:20,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:20,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:20,INFO,127.0.0.1 - - [13/Jan/2025 04:26:20] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:26:25,DEBUG,Rendering index page.
+2025-01-13 04:26:25,INFO,127.0.0.1 - - [13/Jan/2025 04:26:25] "GET / HTTP/1.1" 200 -
+2025-01-13 04:26:26,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:26:26,ERROR,Short URL not found.
+2025-01-13 04:26:26,INFO,127.0.0.1 - - [13/Jan/2025 04:26:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:26:26,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:26:26,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:26:26,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:26,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:26,INFO,127.0.0.1 - - [13/Jan/2025 04:26:26] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:26:27,DEBUG,Redirecting to original URL for short hash: eb8bc3
+2025-01-13 04:26:27,DEBUG,Redirecting to: https://www.uol.com.br/, click count is now 1
+2025-01-13 04:26:27,INFO,127.0.0.1 - - [13/Jan/2025 04:26:27] "[32mGET /eb8bc3 HTTP/1.1[0m" 302 -
+2025-01-13 04:26:32,DEBUG,Getting click count for shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:32,DEBUG,Click count for http://127.0.0.1:5000/eb8bc3 is 1
+2025-01-13 04:26:32,INFO,127.0.0.1 - - [13/Jan/2025 04:26:32] "POST /count HTTP/1.1" 200 -
+2025-01-13 04:26:37,DEBUG,Rendering index page.
+2025-01-13 04:26:37,INFO,127.0.0.1 - - [13/Jan/2025 04:26:37] "GET / HTTP/1.1" 200 -
+2025-01-13 04:26:37,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:26:37,ERROR,Short URL not found.
+2025-01-13 04:26:37,INFO,127.0.0.1 - - [13/Jan/2025 04:26:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:26:37,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:26:37,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:26:37,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:37,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:37,INFO,127.0.0.1 - - [13/Jan/2025 04:26:37] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:26:39,DEBUG,Getting click count for shortened URL: Shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:39,DEBUG,Click count for Shortened URL: http://127.0.0.1:5000/eb8bc3 is 0
+2025-01-13 04:26:39,INFO,127.0.0.1 - - [13/Jan/2025 04:26:39] "POST /count HTTP/1.1" 200 -
+2025-01-13 04:26:43,DEBUG,Rendering index page.
+2025-01-13 04:26:43,INFO,127.0.0.1 - - [13/Jan/2025 04:26:43] "GET / HTTP/1.1" 200 -
+2025-01-13 04:26:44,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:26:44,ERROR,Short URL not found.
+2025-01-13 04:26:44,INFO,127.0.0.1 - - [13/Jan/2025 04:26:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:26:44,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:26:44,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:26:44,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:44,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:44,INFO,127.0.0.1 - - [13/Jan/2025 04:26:44] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:26:47,DEBUG,Retrieving original URL for shortened URL: Shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:47,DEBUG,Found original URL: https://www.uol.com.br/
+2025-01-13 04:26:47,INFO,127.0.0.1 - - [13/Jan/2025 04:26:47] "POST /retrieve HTTP/1.1" 200 -
+2025-01-13 04:26:51,DEBUG,Rendering index page.
+2025-01-13 04:26:51,INFO,127.0.0.1 - - [13/Jan/2025 04:26:51] "GET / HTTP/1.1" 200 -
+2025-01-13 04:26:52,DEBUG,Redirecting to original URL for short hash: favicon.ico
+2025-01-13 04:26:52,ERROR,Short URL not found.
+2025-01-13 04:26:52,INFO,127.0.0.1 - - [13/Jan/2025 04:26:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 04:26:52,DEBUG,Received URL to shorten: https://www.uol.com.br/
+2025-01-13 04:26:52,DEBUG,Shortening URL: https://www.uol.com.br/
+2025-01-13 04:26:52,DEBUG,Generated short URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:52,DEBUG,Returning shortened URL: http://127.0.0.1:5000/eb8bc3
+2025-01-13 04:26:52,INFO,127.0.0.1 - - [13/Jan/2025 04:26:52] "POST /shorten HTTP/1.1" 200 -
+2025-01-13 04:30:52,INFO, * Detected change in 'C:\\Users\\VictoriaPecciadaSilv\\Website\\revelo_challenge_automation.py', reloading

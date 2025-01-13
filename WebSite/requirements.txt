@@ -1,0 +1,4 @@
+Flask
+validators
+requests
+selenium
