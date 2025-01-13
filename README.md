@@ -72,8 +72,8 @@ NOTE: Test cases in `test cases - revelo challenge` worksheet
 
 7- Using Selenium and unitTest for automation, with Python. Basic Page-object model. Chrome driver is already included in the project.
 
-8- Needed requirements to be isntalled in requirements.txt file
+8- Needed requirements to be installed in requirements.txt file
 
-9- FUTURE WORK - add a report tool, such as Allure. Due to time constraints, I was not able to add it
+9- FUTURE WORK - add a report tool, such as Allure. Due to time constraints, I was not able to add it. Also, in the future, for a larger project and in production environment, a pesistent database should be used to store the shortned URLs (hashlib mapping was a way to make it simple, quick and easy, since it's a small test in local environment)
 
 
