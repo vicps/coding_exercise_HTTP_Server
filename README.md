@@ -22,7 +22,7 @@ MacOs: You can install Python 3 using Homebrew `$ brew install python`
 
 ## Running the HTTP SERVER ONLY code (if you want to test it manually)
 
-*note: if you run the automation before, and the server is still up abd running, you can go to `http://127.0.0.1:5000/`
+*note: if you run the automation before, and the server is still up abd running, you can go to `http://127.0.0.1:5000/` . You can follow the test case file attached to guide the test.
 
 1- Clone or download the files from this repository
 
