@@ -20,6 +20,8 @@ MacOs: You can install Python 3 using Homebrew `$ brew install python`
 
 6- Run the automation with `python -B revelo_challenge_automation.py`
 
+7- Follow the results in terminal window. In the end, if all tests pass, you'll see a OK result, and the number of tests executed.
+
 ## Running the HTTP SERVER ONLY code (if you want to test it manually)
 
 *note: if you run the automation before, and the server is still up abd running, you can go to `http://127.0.0.1:5000/` . You can follow the test case file attached to guide the test.
